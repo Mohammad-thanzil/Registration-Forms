@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registartion Form</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="backend.php">
+            <h2>Registartion <span id="spa">Form</span> </h2>
+            <br>
+            <div>
+                <p>Kindly Fill in This Form to Register</p>
+            </div><br>
+            <div class="space">
+                <label for="Name">UserName</label>
+                <input type="text" id="Name" placeholder="Enter Name">
+            </div>
+            <br>
+            <div class="space">
+                <label for="Email">Email ID</label>
+                <input type="email" id="Email" placeholder="Enter Email">
+            </div>
+            <br>
+            <div>
+                <label for="Phone Number">Phone Number</label>
+                <input type="number" id="Phone-Number" placeholder="Enter Phone Number">
+            </div>
+            <br>
+            <div class="space">
+                <label for="Gender" id="gen">Gender</label>
+
+                <label for="Gender"></label>
+                <input type="radio" name="Gender" id="Gender">Male
+                <input type="radio" name="Gender" id="Gender">Female
+                <input type="radio" name="Gender" id="Gender">Other
+            </div>
+
+
+
+            <div>
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <label for="Password">Password</label>
+                <input type="password" id="password" placeholder="Enter Password">
+            </div>
+            <br>
+
+            <div class="space">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <label for="Re-Password">Re-Password</label>
+                <input type="password" id="Re-Password" placeholder="Enter Re-Password">
+            </div>
+            <br>
+            <div class="buttons">
+
+                <button type="submit">Register Now</button>
+
+                <button type="reset">Reset now</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
